@@ -34,25 +34,7 @@ If that mode doesn't work, use:
 npm install --legacy-peer-deps
 ```
 
-### 3. Run Storybook Locally
-
-To start Storybook on your local machine, run:
-
-```bash
-npm run storybook
-```
-
-This will start Storybook on port 6006. Open your browser and go to `http://localhost:6006` to view the Storybook UI.
-
-### 4. Run Tests
-
-To run the tests, use:
-
-```bash
-npm test
-```
-
-### 5. Build and Run with Docker
+### 3. Build and Run with Docker
 
 To containerize the application and run it using Docker, follow these steps:
 
@@ -68,7 +50,7 @@ docker build -t deluz_kyle_storybook:1.0.0 .
 docker run -p 8083:8083 deluz_kyle_ui_garden
 ```
 
-This will start the application on port 8083. Open your browser and go to `http://localhost:8083` to view the application.
+This will start the Storybook application on port 8083. Open your browser and go to `http://localhost:8083` to view the application.
 
 ### Dockerfile
 
