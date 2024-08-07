@@ -47,7 +47,7 @@ docker build -t deluz_kyle_storybook:1.0.0 .
 #### Run the Docker Container
 
 ```bash
-docker run -p 8083:8083 deluz_kyle_ui_garden
+docker run -p 8083:8083 deluz_kyle_storybook:1.0.0
 ```
 
 This will start the Storybook application on port 8083. Open your browser and go to `http://localhost:8083` to view the application.
